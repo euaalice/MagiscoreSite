@@ -32,9 +32,7 @@
       "last 1 safari version"
     ]
   },
-
   "engines": {
     "node": "v24.11.1"
   }
-  
 }
