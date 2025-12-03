@@ -1,7 +1,7 @@
 import axios from "axios"
 
-baseURLHerku = "https://magiscoreserver-8a06a6a14420.herokuapp.com/server/"
-baseURLLocal = "http://localhost:5000/server/"
+const baseURLHerku = "https://magiscoreserver-8a06a6a14420.herokuapp.com/server/"
+const baseURLLocal = "http://localhost:5000/server/"
 const api = axios.create({baseURL:baseURLHerku  });
 
 // Adiciona o token no header de todas as requisições
